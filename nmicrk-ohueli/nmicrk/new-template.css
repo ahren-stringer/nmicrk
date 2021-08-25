@@ -1,0 +1,1500 @@
+_@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.article{
+    flex-basis: 100%;
+}
+
+/* Реабилитация переферийной нервной системы*/
+
+.reabilitation_title{
+	font-size: 27px;
+    margin-bottom: 55px;
+}
+	.reabilitation{
+		margin-bottom:80px;
+    padding-left: 20px;
+	}
+	element.style {
+		font-size: 27px;
+		margin-bottom: 55px;
+	}
+	.reabilitation img{
+		float:right;
+    width: 475px;
+    height: 315px;
+    margin-left: 30px
+	}
+	.reabilitation_img{
+		float:right
+	}
+	.main_doctor{
+		display:flex;
+		flex-wrap: wrap;
+margin-bottom:80px
+}
+	.main_doctor_img{		
+		border: 1px solid lightgray;
+		background: #fff;
+		border-radius: 16px;
+		margin-right: 60px;
+		width: 300px;
+		height: 295px;
+		position: relative;
+	}
+.main_doctor_img img{		
+		    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	}
+	.doctor_img_inner{
+		height: 295px;
+		width: 300px;
+		position: relative;
+		text-align:center;
+	}
+	.doctor_img_inner img{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+	}
+	.doctor_info{
+		width:300px;
+}
+	.supdoctor{
+		width:45px;
+		height:4px;
+		background:#227ea6;
+	}
+	.doctor_name{
+		margin:25px 0 30px;
+font-size: 28px;
+line-height: 36px;
+color: #000000;
+font-weight: 700;
+	}
+	.sotrudniki_title{
+		margin:60px 0;
+		font-weight:bold;
+		font-size:22px;
+}
+.sotrudniki_wrapper {
+		display:flex;
+		text-align: center;
+		flex-wrap:wrap;
+		margin-right: -154px;
+	}
+	.sotrudniki_wrapper .doctor_img_inner{
+		border-bottom:1px solid lightgray;
+	}
+.sotrudniki_wrapper .doctor_img{
+		margin-bottom:70px;
+		margin-right: 138px;
+		width: 300px;
+		border: 1px solid lightgray;
+		background: #fff;
+		border-radius: 16px;
+	}
+	.sotrudnik_name{
+		margin:22px auto;
+		color:#2083ab;
+		font-weight:bold;
+		width: 200px;
+}
+.sotrudnik_status{
+		margin-bottom:50px;
+		color:#9e9e9e;
+		font-size:14px;
+}
+li{
+    font-weight: 400;
+		margin-bottom:30px;
+font-size: 18px;
+line-height: 26px;
+color: #444444;
+padding-left: 7px;
+}
+li::marker {
+		font-weight:bold;
+}
+@media (max-width: 768px){
+li {
+    font-size: 15px !important;
+    line-height: 19px !important;
+    margin-bottom: 25px !important;
+}
+}
+/*Конец - Реабилитация переферийной нервной системы*/
+
+/*Нарушения функций центральной нервной системы (нейрореабилитация*/
+.about_reabilitation,
+.reabilitation_methods{
+margin-bottom: 80px;
+	}
+	.bolezni_section{
+margin-bottom: 40px;
+}
+	.reabilitation_discription{
+margin-bottom: 60px;
+
+	}
+	.reabilitation_text{
+		max-width:665px;
+font-size: 20px;
+line-height: 28px;
+color: #444444;
+	}
+.reabilitation_inner,
+.ambulator_inner{
+		display:flex;
+		align-items:center;
+		justify-content:space-between;
+	}
+/*.reabilitation_inner img,
+.ambulator_inner img{
+width:480px;
+margin-left: 20px;
+}*/
+.reabilitation_title {
+		font-size: 27px;
+		margin-bottom: 55px;
+	}
+.bolezni_inner_1,
+	.bolezni_inner_2{
+		display:flex;
+		justify-content: space-between;
+    	flex-wrap: wrap;
+	}
+	.bolezni_inner_2{
+		margin: 0 auto;
+		max-width: 757px;
+	}
+	.bolezn{
+		position:relative;
+		border-radius: 20px;
+		border:1px solid #909090;
+		padding:20px 50px;
+		text-align:center;
+    margin-bottom: 40px;
+    width: 349px;
+    height: 110px;
+}
+	.bolezn_text{
+		    width: 240px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.bolezn_number{
+		position:absolute;
+		width: 30px;
+		height: 30px;
+		border-radius: 15px;
+		background-color: #ffffff;
+		border: 1px solid #909090;
+		top: -15px;
+		left: 15px;
+		line-height: 30px !important;
+		vertical-align: middle;
+font-size: 17px !important;
+color: #828282 !important;
+font-weight: 700 !important;
+}
+.reabilitation_type{
+    border: 1px solid lightgray;
+    background: #fff;
+    border-radius: 16px;
+margin-bottom:27px;
+}
+.reabilitation_type_img {
+    height: 270px;
+    width: 280px;
+    border-radius: 16px 16px 0px 0px;
+    background-size: 143%;
+    background-position: center;
+}
+.reabilitation_type_name{
+	margin:27px auto 20px;
+	font-size: 16px;
+	line-height: 19px;
+	color: #222222;
+	font-weight: 500;
+	display: inline-block;
+}
+.reabilitation_discription img{
+float:right;
+margin-left: 50px;
+width:480px;
+}
+.reabilitation_methods h2{
+margin-bottom:35px !important;
+}
+.reabilitation_methods h2 a,
+.reabilitation_type a{
+ text-decoration:none !important;
+}
+.reabilitation_methods h2 a{
+font-size: 28px !important;
+}
+.about_reabilitation_title{
+font-size: 20px;
+line-height: 28px;
+color: #000000;
+font-weight: 600;
+margin-bottom: 37px;
+}
+@media (max-width: 1200px){
+.bolezn {
+        width: 288px;
+}
+}
+@media (max-width: 1024px){
+.reabilitation_methods,
+.about_reabilitation{
+    margin-bottom: 40px !important;
+}
+.reabilitation_methods{
+    margin-bottom: 30px !important;
+}
+.reabilitation_title {
+    margin-bottom: 30px !important;
+}
+.reabilitation_inner img,
+.bolezni_inner_2,
+.reabilitation_delete {
+    display:none !important;
+}
+.bolezn {
+    flex-basis: 51%;
+    flex-grow: 1;
+    margin-bottom: 30px !important;
+}
+	.reabilitation_type {
+margin:10px;
+}
+.reabilitation_type_img {
+    height: 140px !important;
+    width: 145px;
+}
+
+	.reabilitation_methods h2,
+.reabilitation_methods h2 a{
+font-size: 18px !important;
+line-height: 20px !important;
+}
+.reabilitation_discription,
+.reabilitation {
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+	.order_1{
+    order: 1;
+}
+	.order_2{
+    order: 2;
+}
+.reabilitation_discription img{
+    float: none;
+    order: 2;
+    margin: 20px auto;
+}
+.reabilitation img {
+    float: none;
+    order: 2;
+    margin: 0 auto;
+}
+.order_3{
+    order: 3;
+}
+.sotrudniki_wrapper {
+    justify-content: space-between;
+margin-right: 0;
+}
+.sotrudniki_wrapper .doctor_img {;
+    margin-right: 0;
+}
+	.main_doctor_img{    
+	width: 188px;
+    height: 188px;
+}
+.main_doctor_img img {
+    width: 90%;
+}
+.sotrudnik_status,
+	.reabilitation_type_name{
+		font-size: 12px;
+		line-height: 15px;
+	}
+}
+@media (max-width: 768px){
+.main {
+    background: none;
+}
+.reabilitation_title {
+    font-size: 22px;
+line-height: 26px;
+}
+.about_reabilitation{
+    margin-bottom: 40px;
+}
+.about_reabilitation_title {
+font-size: 18px;
+line-height: 22px;
+}
+
+
+/*.reabilitation_methods h2,.reabilitation_methods h2 a {
+font-size: 18px;
+}
+.reabilitation_methods h2 {
+    margin-bottom: 35px !important;
+}*/
+.reabilitation_discription img {
+    width: 100%;
+}
+.reabilitation img {
+    width: 100%;
+    height: auto;
+}
+.supdoctor{
+		margin-top:20px;
+	}
+.doctor_name {
+    margin: 20px 0;
+font-size: 16px;
+line-height: 30px;
+}
+	.doctor_status{
+font-size: 14px;
+line-height: 24px;
+}
+.sotrudniki_title {
+    margin: 80px 0 20px;
+font-size: 20px;
+}
+.sotrudniki_wrapper .doctor_img {
+    margin-bottom: 70px;
+    margin-right: 0;
+    width: 140px;
+}
+.doctor_img_inner {
+    height: 140px;
+    width: 140px;
+}
+.doctor_img_inner img {
+    width: 90%;
+}
+	.sotrudnik_name{
+	font-size: 14px;
+	line-height: 18px;
+width: 110px;
+}
+.sotrudnik_status {
+    margin-bottom: 20px;
+}
+.sotrudnik_name {
+    margin: 14px auto;
+}
+.sotrudniki_wrapper .doctor_img {
+    margin-bottom: 15px;
+}
+}
+
+/*Конец - Нарушения функций центральной нервной системы (нейрореабилитация)*/
+
+/*Вышестоящие и контролирующие органы*/
+
+.contacts{
+	border-collapse: collapse;
+		border-bottom:1px solid lightgrey;
+	}
+	.contacts tr{
+		border-top:1px solid lightgrey 
+	}
+	.contacts tr td:first-child{
+		vertical-align: top;
+    	width: 40%;
+    	padding-left: 15px;
+    padding-right: 20px;
+
+	}
+	.contacts tr td{
+    padding-top: 33px;
+padding-bottom: 25px;
+	}
+.contacts tr td a{
+		text-decoration:none !important;
+	}
+@media (max-width: 768px){
+.contacts tr {
+    border-top: 1px solid lightgrey;
+}
+.contacts tr td {
+    display: block;
+padding-top: 0;
+}
+.contacts tr td:first-child {
+    padding-top: 25px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+width: 100%;
+}
+.contact_type{
+    margin-bottom: 12px;
+	}
+.contact_type{
+    margin-bottom: 12px;
+font-size: 14px;
+line-height: 26px;
+	}
+.contact{
+    margin-bottom: 17px;
+font-size: 16px;
+line-height: 22px;
+	}
+.contact_last{
+font-size: 16px;
+line-height: 22px;
+	}
+}
+
+/*Конец - Вышестоящие и контролирующие органы*/
+
+
+/*Амбулаторная медицинская помощь*/
+@media (max-width: 1024px){
+.ambulator_inner {
+    flex-direction: column;
+align-items: flex-start;
+}
+}
+/*Конец - Амбулаторная медицинская помощь*/
+
+/*Кардиология (кардиореабилитация)*/
+.cardio_reabilitation .event-list li {
+    line-height: 24px;
+}
+.ambulator_inner_img{
+    width: 580px;
+    margin-left: 20px;
+    /*height: 385px;*/
+}
+.cardio_inner{
+width: 42%;
+}
+.cardio_inner .bolezn{
+width: 100%;
+    height: 63px;
+}
+.cardio_inner .bolezn .bolezn_text {
+    width: 100%;
+}
+/*.reabilitation_list_item{
+    position: relative;
+    padding-left: 23px;
+}
+.reabilitation_list_item img {
+    position: absolute;
+    left: 0;
+    bottom: 6px;
+}
+.reabilitation_list_item p{
+    font-size: 18px;
+}*/
+.reabilitation_item_title{
+font-size: 30px;
+line-height: 20px;
+color: #000000;
+margin-bottom:75px;
+font-weight:600;
+}
+.reabilitation_list_title{
+    color: #000 !important;
+    font-size: 24px !important;
+    line-height: 30px !important;
+    font-weight: 700 !important;
+}
+.main_cardiodoctor_img{
+    background: #fff;
+    border-radius: 16px;
+    margin-right: 60px;
+    width: 247px;
+}
+.main_cardiodoctor_img img{
+    /* width: 247px; */
+    width: 100%;
+    border-radius: inherit;
+}
+
+.event-item-before-text{
+    padding: 0 40px 36px 0;
+    margin: 0 0 40px;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #889093;
+    border-radius: 20px;
+}
+.event-text{
+margin: 0 0 80px;
+}
+@media (max-width: 1024px){
+.cardio_inner {
+    width: 100%;
+}
+.ambulator_inner_img {
+    margin: 0 auto;
+}
+}
+@media (max-width: 768px){
+.reabilitation_item_title{
+font-size: 18px;
+line-height: 22px;
+margin-bottom: 60px;
+}
+.reabilitation_list_title {
+    font-size: 16px !important;
+	line-height: 19px !important;
+}
+.ambulator_inner_img {
+    width:100%;
+}
+.main_cardiodoctor_img {
+    width: 180px;
+}
+.event-list li {
+    padding: 0 0 0 18px;
+	margin-bottom: 20px !important;
+}
+.bolezn_text {
+    font-size: 15px;
+    line-height: 20px;
+}
+}
+/*Конец - Кардиология (кардиореабилитация)*/
+
+/*Научные подразделения - Внутренняя*/
+.main-block{
+margin-top:50px
+}
+
+.zav_otdelom_img{
+    margin-right: 50px;
+    border-radius: 20px;
+    height: 275px;
+}
+.zav_otdelom_info{
+	width: 67%;
+}
+.zav_otdelom_name{
+	font-size: 23px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.zav_otdelom_status{
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 25px;
+}
+.zav_otdelom_contacts{
+    margin-top: 38px;
+}
+.zav_otdelom_contacts div a{
+    text-decoration: none !important;
+    font-size: 18px !important;
+    line-height: 20px !important;
+    color: #227ea6 !important;
+    font-weight: 700 !important;
+}
+.zav_otdelom_contacts div span{
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+    margin-left: 10px;
+}
+.side-nav{
+	background: #fff;
+    width: 280px;
+    border-radius: 12px;
+    filter: drop-shadow(-1.414px 1.414px 8px rgba(0,0,0,0.05));
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    padding: 30px 18px;
+}
+.side-nav li{
+	padding:0;
+}
+.main_block {
+    display: flex;
+    justify-content: space-between;
+}
+.article_right{
+    max-width: 860px;
+    margin-left: 20px;
+}
+.spec{
+	display: flex;
+    flex-wrap: wrap;
+	margin: 0 -20px;
+}
+.spec_item {
+    width: 260px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid lightgray;
+    margin: 0 20px 40px;
+}
+.spec_img{
+    width: 100%;
+    height: 225px;
+    background-size: cover;
+    background-position: 50% 17%;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+.spec_info{
+    width: 237px;
+    margin: 27px auto 10px;
+}
+.spec_name{
+    font-size: 22px;
+    line-height: 26px;
+    color: #2083ab;
+    font-weight: 700;
+margin-bottom: 15px;
+}
+.spec_status{
+        font-size: 15px;
+    line-height: 19px;
+    color: #9e9e9e;
+}
+.event-title_span{
+font-size: 24px !important;
+    line-height: 32px !important;
+    font-weight: 700 !important;
+    color: #000 !important;
+}
+
+@media (max-width: 1200px){
+.spec {
+    margin: 0px -40px;
+}
+.spec_item {
+    width: 280px;
+    margin: 0px 40px 40px;
+}
+.article_right .supdoctor {
+    margin-top: 20px;
+}
+}
+@media (max-width: 1023px){
+.article_right {
+    margin:0;
+	width: 100%;
+margin-top: 30px;
+}
+.side-nav {
+    margin-top: 15px !important;
+    width: 100% !important;
+}
+.spec {
+    margin: 0px -10px;
+}
+.spec_item {
+   	margin: 0px 12px 40px;
+    width: 30%;
+}
+.spec_info {
+    width: 80%;
+    margin: 19px auto 10px;
+}
+.spec_name {
+    font-size: 14px;
+    line-height: 18px;
+}
+.spec_status {
+    font-size: 12px;
+    line-height: 15px;
+}
+}
+@media (max-width: 768px){
+.spec_img {
+    height: 140px;
+}
+.spec_item {
+    margin: 0px 9px 40px;
+}
+.event-title_span{
+font-size: 16px !important;
+    line-height: 18px !important;
+}
+.directions_img{
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    margin: -3px 0 0 -32px;
+}
+}
+@media (max-width: 559px){
+.spec {
+    margin: 0;
+justify-content: space-between
+}
+.spec_item {
+	width:48%;
+
+    margin: 0px 0 40px;
+}
+.spec_img {
+    height: 225px;
+}
+}
+@media (max-width: 380px){
+.spec_img {
+    height: 140px;
+}
+}
+
+/*Конец - Научные подразделения - Внутренняя*/
+
+/*Научные подразделения*/
+.otdel_title{
+	position: absolute;
+    top: -95px;
+    font-size: 36px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.zav_otdelom_otdel{
+    margin-top: 20px;
+}
+.zav_otdelom_otdel a{
+    font-size: 20px !important;
+    line-height: 26px !important;
+    color: #227ea6 !important;
+    font-weight: 700 !important;
+    margin-top: 20px !important;
+    text-decoration: none !important;
+}
+.zav_name{
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 700;
+margin-top: 20px;
+}
+.zav_status{
+	font-size: 15px;
+line-height: 19px;
+color: #535353;
+margin-top: 20px;
+}
+.zav_status div{
+    display:inline;
+}
+.zav_info{
+    margin-left: 100px;
+    max-width: 435px;
+}
+.zav_img {
+    border-radius: 20px;
+    height: 275px;
+}
+.zav_doctor{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    justify-content: space-between;
+}
+@media (max-width: 1024px){
+.zav_info {
+    margin-left: 0;
+}
+.otdel_title {
+    font-size: 30px;
+    line-height: 34px;
+ 	top: -72px;
+}
+}
+@media (max-width: 768px){
+.otdel_title {
+    font-size: 22px;
+	}
+}
+
+@media (max-width: 490px){
+.otdel_title {
+    top: -91px;
+	}
+.main-block {
+    margin-top: 60px;
+}
+}
+
+@media (max-width: 768px){
+.zav_doctor {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.zav_img{
+    order: 1;
+    height: 170px;
+}
+.zav_otdelom_img {
+    height: 170px;
+}
+.zav_info {
+    order: 2;
+}
+.zav_otdelom_otdel a {
+    font-size: 18px !important;
+    line-height: 24px !important;
+}
+.zav_name,
+.zav_otdelom_name{
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 14px;
+}
+.zav_status,
+.zav_otdelom_status{
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 13px;
+}
+.zav_status div{
+    color: black;
+    font-weight: 700;
+display:block;
+}
+.zav_status span{
+display:naone;
+}
+}
+/*Конец - Научные подразделения*/
+
+/*Отделение бальнеологии*/
+.baln_razdel_wrapper{
+padding-left: 18px;
+}
+.baln_razdel {
+    text-align: center;
+    padding: 8px 0;
+    width: 244px;
+    height: 48px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    border: 1px solid #227ea6;
+position:relative;
+    margin-bottom: 40px;
+}
+.baln_razdel_number{
+	position:absolute;
+background: #fff;
+    left: -18px;
+    color: #227ea6;
+    height: 47px;
+    width: auto;
+    width: 47px;
+    border: 1px solid;
+    border-radius: 50%;
+    /* vertical-align: middle; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    font-size: 28px;
+    line-height: 20px;
+    color: #227ea6;
+    font-weight: 700;
+}
+.baln_razdel a{
+    text-decoration: none !important;
+    font-size: 20px !important;
+    line-height: 20px !important;
+    color: #227ea6 !important;
+    font-weight: 700 !important;
+}
+.baln_title{
+font-size: 28px;
+    margin-bottom: 40px
+}
+.baln_title_2{
+font-size: 24px;
+line-height: 20px;
+margin-bottom: 40px
+}
+.baln_title_3{
+font-size: 20px;
+line-height: 28px;
+margin-bottom: 8px;
+}
+.photo_block{
+margin-bottom: 50px;
+}
+.photo_block_right{
+float: right;
+    margin-left: 40px;
+}
+.photo_block_left{
+float: left;
+    margin-right: 40px;
+}
+.photo_block_1{
+width:480px
+}
+.photo_block_2{
+width:380px
+}
+.photo_block_3{
+width:280px
+}
+.baln_galery{
+	display: flex;
+	margin: 15px -10px 30px;
+flex-wrap: wrap;
+}
+.baln_galery_item{
+    margin: 0 10px 0;
+    flex-grow: 1;
+    flex-basis: 16%;
+}
+.baln_galery_item img{
+    max-width: 100%;
+    height: auto;
+}
+.baln_paragraph{
+margin-bottom: 40px;
+}
+@media (max-width: 768px){
+.photo_block {
+    display: flex;
+    flex-direction: column;
+	}
+	.photo_block_right,
+	.photo_block_left{
+    width: 100%;
+    order: 4;
+float: none;
+margin:0;
+	}
+	.photo_block_right{
+order: 4;
+}
+.photo_block_left{
+order: 1;
+}
+.baln_galery_item {
+    flex-basis: 43%;
+margin-bottom: 20px;
+}
+}
+/*Конец - Отделение бальнеологии*/
+
+.administration-name {
+	font-size: 23px;
+	line-height: 30px;
+	color: #000000;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 8px;
+}
+
+.administration-function {
+	font-size: 18px;
+	line-height: 24px;
+	color: #000000;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 8px;
+}
+
+.administration-meta {
+	font-size: 15px;
+	line-height: 28px;
+	color: #535353;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+}
+
+.administration-foto {
+	width: 280px;
+    height: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+	background-size: cover;
+    background-position: center top;
+}
+
+.administration-foto img {
+	overflow: hidden;
+	border-radius: 20px;
+	width: 100%;
+}
+
+.administration-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.administration-item {
+	flex-basis: 32%;
+    flex-grow: 1;
+    margin-right: 1%;
+    margin-bottom: 4%;
+}
+
+.administration-desc {
+	margin-top: 32px;
+	padding-top: 26px;
+	position: relative;
+}
+
+.administration-desc:before {
+	width: 43px;
+	height: 3px;
+	background-color: #227ea6;
+	position: absolute;
+	display: block;
+	content: "";
+	top: 0;
+	left: 0;
+}
+
+.page-title {
+	margin: 0;
+	margin-bottom: 36px;
+	font-size: 36px;
+	color: #000000;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+}
+
+.block-list-style-1 .icon-triangle li {
+		list-style-image: url(/icon/list-icon-triangle.png);
+		font-size: 18px;
+		color: #000000;
+		font-weight: 300;
+		font-family: "Roboto";
+		margin-bottom: 32px;
+		list-style-position: outside;
+	}
+
+	.block-list-style-1 .icon-triangle li:last-child {
+		margin-bottom: 0;
+	}
+	
+	.block-list-style-1 {
+		padding: 60px;
+		border-radius: 20px;
+		border: 1px solid #2083ab;
+		margin-top: 90px;
+	}
+	
+	.block-list-style-1 h2 {
+		font-size: 22px;
+		font-weight: 500;
+		font-family: "Roboto";
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding-left: 70px;
+		padding-right: 20px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+		margin-top: -16px;
+		background: rgb(247 247 247 / 87%);
+	}
+	
+	.block-list-style-1 {
+		position: relative;
+	}
+	
+	.block-list-style-1 h2:before {
+		content: "";
+		display: block;
+		position: absolute;
+		width: 64px;
+		height: 64px;
+		border-radius: 32px;
+		background-color: #ffffff;
+		border: 1px solid #2083ab;
+		left: -14px;
+		bottom: 0;
+		top: 0;
+		margin: auto;
+	}
+	
+	.block-list-style-1 .icon-struct:before {
+		background: url(/icon/icon-struct.png) no-repeat center #fff;
+	}
+	
+	.block-list-style-1 .icon-osn:before {
+		background: url(/icon/icon-osn.png) no-repeat center #fff;
+	}
+
+	.block-list-style-1 .icon-exl:before {
+		background: url(/icon/exl-icon.png) no-repeat center #fff;
+	}
+
+	.block-list-style-1 .icon-text-1:before {
+		content: "1";
+		font-weight: 500;
+		font-family: "Roboto";
+		font-size: 35px;
+		color: #2083ab;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.block-list-style-1 .icon-text-2:before {
+		content: "2";
+		font-weight: 500;
+		font-family: "Roboto";
+		font-size: 35px;
+		color: #2083ab;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.block-list-style-1 .icon-text-3:before {
+		content: "3";
+		font-weight: 500;
+		font-family: "Roboto";
+		font-size: 35px;
+		color: #2083ab;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.block-list-style-1 .icon-text-4:before {
+		content: "4";
+		font-weight: 500;
+		font-family: "Roboto";
+		font-size: 35px;
+		color: #2083ab;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.main {
+		/* background: #fff !important; */
+	}
+	
+	.block-admin-style-1 {
+		border-radius: 20px;
+		background-color: #ffffff;
+		border: 1px solid #2083ab;
+		max-width: 550px;
+		display: flex;
+		padding: 24px;
+		position: relative;
+		margin-top: 90px;
+	}
+	
+	.block-admin-style-1 h3 {
+		font-size: 20px;
+		color: #000000;
+		font-weight: 600;
+		font-family: "Roboto";
+		position: absolute;
+		background: #fff;
+		top: 0;
+		left: 0;
+		margin-top: -16px;
+		margin-left: 24px;
+		padding: 0 8px;
+	}
+	
+	.block-admin-style-1 {
+		font-size: 18px;
+	}
+	
+	.block-admin-style-1 img {
+		border-radius: 20px;
+	}
+	
+	.block-admin-style-1 .image {
+		margin-right: 16px;
+	}
+	
+	.block-admin-style-1 .light-text {
+		color: #535353;
+		
+		font-size: 18px;
+		line-height: 28px;
+		color: #535353;
+		font-weight: 400;
+		font-family: "Roboto";
+	}
+	
+	.block-admin-style-1 .admin-title {
+		font-size: 20px;
+		line-height: 24px;
+		color: #000000;
+		font-weight: 400;
+		font-family: "Roboto";
+	}
+
+	@media (max-width: 460px) {
+	
+		.page-title {
+			font-size: 22px !important;
+		}
+		
+		.block-list-style-1 h2 {
+			font-size: 16px;
+			line-height: 19px;
+		}
+		
+		.block-list-style-1 {
+			padding: 94px 20px;
+		}
+		
+		.block-list-style-1 .icon-triangle li {
+			font-size: 15px;
+			line-height: 17px;
+			margin-bottom: 20px;
+		}
+		
+		.block-admin-style-1 h3 {
+			font-size: 16px;
+			margin-top: -13px;
+		}
+		
+		.block-admin-style-1 .admin-title {
+			font-size: 14px;
+			letter-spacing: -1px;
+			line-height: 18px;
+		}
+		
+		.block-admin-style-1 p, .block-admin-style-1 .light-text {
+			font-size: 13px;
+			letter-spacing: -1px;
+			line-height: 16px;
+		}
+		
+		.block-admin-style-1 img {
+			max-width: 83px;
+			height: auto;
+		}
+		
+		.block-admin-style-1 {
+			padding: 24px 8px;
+		}
+	}
+	
+.block-list-style-2 .icon-triangle li {
+	list-style-image: url(/icon/list-icon-triangle.png);
+	font-size: 18px;
+	color: #000000;
+	font-weight: 300;
+	font-family: "Roboto";
+	margin-bottom: 32px;
+	list-style-position: outside;
+}
+
+.article .faq .icon-triangle li {
+	list-style-image: url(/icon/list-icon-triangle.png);
+	font-size: 18px;
+	color: #000000;
+	font-weight: 300;
+	font-family: "Roboto";
+	margin-bottom: 32px;
+	list-style-position: outside;
+	margin-left: 16px;
+}
+
+.block-list-style-2 .icon-triangle li:last-child {
+	margin-bottom: 0;
+}
+
+.block-list-style-2 {
+	padding: 60px;
+	border-radius: 20px;
+	border: 1px solid #2083ab;
+	margin-top: 90px;
+}
+
+.block-list-style-2 h2 {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Roboto";
+    position: absolute;
+    top: 0;
+    left: 22px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: -16px;
+    background: rgb(247 247 247 / 87%);
+}
+
+.block-list-style-2 {
+	position: relative;
+}
+
+.padding-ul {
+	padding-left: 32px;
+}
+	
+.block-list-style-2 .padding-ul li {
+	margin-bottom: 12px;
+}
+
+.block-list-style-2 {
+	margin-bottom: 45px;
+}
+
+.main .holder .article > h2 {
+	margin-bottom: 40px;
+}
+
+.main .article > p {
+	margin-bottom: 40px;
+}
+
+.half-column .page-title {
+		font-size: 36px;
+		color: #000000;
+		font-weight: 500;
+		font-family: "Roboto";
+	}
+	
+	.half-column-wrapper {
+		display: flex;
+		margin-bottom: 80px;
+	}
+	
+	.half-column img {
+		width: 100%;
+	}
+	
+	.half-column {
+		flex-basis: 49%;
+		margin-right: 1%;
+	}
+	
+	.half-column:last-child {
+		margin-right: 0;
+		margin-left: 1%;
+	}
+	
+	p {
+		font-size: 20px;
+		color: #444444;
+		font-weight: 400;
+		font-family: "Roboto";
+	}
+	
+	blockquote {
+		font-size: 20px;
+		color: #828282;
+		font-weight: 400;
+		font-family: "Roboto";
+		
+		border-left: 2px solid #2083ab;
+		padding-left: 22px;
+		margin-bottom: 24px;
+	}
+	
+	.block-ul-list-1 {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 40px;
+	}
+	
+	.block-ul-list-1 li {
+		font-size: 20px;
+		color: #222222;
+		font-weight: 400;
+		font-family: "Roboto";
+		text-align: center;
+		position: relative;
+		
+		border-radius: 20px;
+		border: 1px solid #909090;
+		
+		padding: 20px;
+		flex-basis: 30%;
+	}
+	
+	.schedule-row {
+		border-bottom: 2px solid #b9b9b9;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		padding: 40px 0;
+	}
+	
+	.schedule-date {
+		display: flex;
+		align-items: center;
+		flex-basis: 22%;
+		flex-shrink: 0;
+	}
+	
+	.schedule-date .number {
+		padding-right: 20px;
+	}
+	
+	.schedule-date .day {
+		border-left: 2px solid #828282;
+		padding-left: 20px;
+	}
+	
+	.schedule-date .number {
+		font-size: 42px;
+		color: #000000;
+		font-weight: 300;
+		font-family: "Roboto";
+	}
+	
+	.schedule-date .day {
+		white-space: nowrap;
+	}
+	
+	.schedule-man {
+		flex-basis: 30%;
+		padding: 0 50px;
+		flex-shrink: 0;
+	}
+	
+	.schedule-wrapper {
+		margin-bottom: 40px;
+	}
+	
+	h2 {
+		margin-bottom: 40px;
+		font-size: 28px;
+		color: #000000;
+		font-weight: 500;
+		font-family: "Roboto";
+	}
+	
+	h3 {
+		margin-bottom: 40px;
+		font-size: 20px;
+		color: #000000;
+		font-weight: 600;
+		font-family: "Roboto";
+	}
+	
+	.article ul.block-ul-list-1 li {
+		list-style: none;
+	}
+	
